@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.tiberio.fechamentoexterno.atividades.TipoDocumentos">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_tipo_documentos" />
+
+    <RelativeLayout
+
+        android:layout_width="380dp"
+        android:layout_height="561dp">
+
+
+        <TextView
+            android:id="@+id/txtTituloFE10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/scrollView2"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="59dp"
+            android:background="@color/color_fundo_titulo_fechaexterno"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="left|center"
+            android:text="Fechamento Externo"
+            android:textAlignment="center"
+            android:textColor="@color/color_titulo_fechaexterno"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_botao_voltar"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/lstprodutos1"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/color_branco"
+            android:elevation="13dp"
+            android:minWidth="64dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/botao_voltar"
+            android:textColor="@color/color_roxo_nivel"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txtTituloModelo"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTituloFE10"
+            android:background="@color/colorPrimaryDark"
+            android:text="Nome Produto"
+            android:textColor="@color/color_branco" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/scrollView2"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!-- codigo -->
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lstprodutos1"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTituloModelo" />
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.tiberio.fechamentoexterno">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fechamentoexternoapplogin"
+        android:label="Fechamento Externo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".atividades.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".atividades.Menuprincipal"
+            android:label="@string/title_activity_menuprincipal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Produtos"
+            android:label="@string/title_activity_produtos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Arquivos"
+            android:label="@string/title_activity_arquivos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.TipoDocumentos"
+            android:label="@string/title_activity_tipo_documentos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.DetalheArquivo"
+            android:label="@string/title_activity_detalhe_arquivo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.VisualizarArquivo"
+            android:label="@string/title_activity_visualizar_arquivo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Localidade"
+            android:label="@string/title_activity_localidade"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Bairro"
+            android:label="@string/title_activity_bairro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Produtos1"
+            android:label="@string/title_activity_produtos1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.Arquivos1"
+            android:label="@string/title_activity_arquivos1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.TipoDocumentos1"
+            android:label="@string/title_activity_tipo_documentos1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.tipodocumentosoc"
+            android:label="@string/title_activity_tipodocumentosoc"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.ArquivosOC"
+            android:label="@string/title_activity_arquivos_oc"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".atividades.tipodocumentosoc1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".atividades.Pesquisar"
+            android:screenOrientation="portrait" />
+        <activity android:name=".atividades.VisualizarFile" />
+    </application>
+
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="br.com.tiberio.fechamentoexterno.atividades.Login">
+
+
+    <EditText
+        android:id="@+id/txtlogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/lblusuario"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorHint="@color/ciano_500"
+        android:textColorLink="@color/ciano_500"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/txtsenha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblSenha"
+        android:layout_alignStart="@+id/lblSenha"
+        android:layout_below="@+id/lblSenha"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorHint="@color/ciano_500"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/logo_tiberio_home_app"
+        tools:ignore="ContentDescription" />
+
+
+    <Button
+        android:id="@+id/id_botao_login"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+
+        android:layout_below="@+id/saveLoginCheckBox"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:background="@color/color_branco"
+        android:elevation="13dp"
+        android:minWidth="64dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/botao_login"
+        android:textColor="@color/color_roxo_nivel"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lblusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtlogin"
+        android:layout_alignStart="@+id/txtlogin"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="52dp"
+        android:text="Usuário"
+        android:textColor="@color/color_cinza_nivel2" />
+
+    <TextView
+        android:id="@+id/lblSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtlogin"
+        android:layout_alignStart="@+id/txtlogin"
+        android:layout_below="@+id/txtlogin"
+        android:layout_marginTop="26dp"
+        android:text="Senha"
+        android:textColor="@color/color_cinza_nivel2" />
+
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtsenha"
+        android:layout_alignStart="@+id/txtsenha"
+        android:layout_below="@+id/txtsenha"
+        android:layout_marginTop="23dp"
+        android:text="Lembrar Usuário e Senha"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/color_cinza_nivel2" />
+
+    <TextView
+        android:id="@+id/txtVersao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="42dp"
+        android:text="Versão 1.0"
+        android:textSize="8sp" />
+
+
+</android.widget.RelativeLayout>

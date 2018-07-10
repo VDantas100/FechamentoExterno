@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    Item com logo
+    <item android:id="@+id/new_game1"
+        android:icon="@drawable/fechamentoexternoapplogin"
+        android:title="@string/menuitem1"
+        app:showAsAction="always"
+        android:paddingLeft="100dp"
+        />
+     -->
+    <item
+        android:id="@+id/menu_action_sair"
+        android:icon="@drawable/fechamentoexternoapplogin"
+        android:title="@string/menuitem1" />
+</menu>

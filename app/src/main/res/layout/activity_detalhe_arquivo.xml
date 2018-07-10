@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.tiberio.fechamentoexterno.atividades.DetalheArquivo">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_detalhe_arquivo" />
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="561dp">
+
+
+        <TextView
+            android:id="@+id/txtTituloFE14"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="59dp"
+            android:background="@color/color_fundo_titulo_fechaexterno"
+            android:gravity="left|center"
+            android:text="Fechamento Externo"
+            android:textAlignment="center"
+            android:textColor="@color/color_titulo_fechaexterno"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8sp"
+            android:text=" Versão :"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/txtTituloArquivoDetalhe"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="106dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Nome Arquivo"
+            android:textColor="@color/color_branco" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/txtTituloArquivoDetalhe"
+            android:layout_marginTop="21dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Mês Vigência :"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/txtMesVigencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignLeft="@+id/id_botao_visualisar"
+            android:layout_alignStart="@+id/id_botao_visualisar"
+            android:text="Mes Vigencia"
+            tools:text="02/2017" />
+
+        <TextView
+            android:id="@+id/txtVersao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignLeft="@+id/txtMesVigencia"
+            android:layout_alignStart="@+id/txtMesVigencia"
+            android:text="1.0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="29dp"
+            android:text="Arquivo:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtnomearquivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="19dp"
+            android:text="Arquivo teste"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/id_botao_voltar"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+
+            android:layout_alignLeft="@+id/txtnomearquivo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/txtnomearquivo"
+            android:layout_marginBottom="82dp"
+            android:background="@color/color_branco"
+            android:elevation="13dp"
+            android:minWidth="64dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/botao_voltar"
+            android:textColor="@color/color_roxo_nivel"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/id_botao_visualisar"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_alignTop="@+id/id_botao_voltar"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+            android:layout_toEndOf="@+id/id_botao_voltar"
+            android:layout_toRightOf="@+id/id_botao_voltar"
+            android:background="@color/color_azul_visualizar"
+            android:elevation="13dp"
+            android:minWidth="64dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/botao_visualizar"
+            android:textColor="@color/color_branco"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

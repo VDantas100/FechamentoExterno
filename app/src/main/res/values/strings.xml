@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Fechamento Externo</string>
+    <string name="title_activity_menuprincipal">Menuprincipal</string>
+    <string name="botao_login">Acessar</string>
+    <string name="id_botao_login">btnlogar</string>
+    <string name="id_botao_voltar">btnvoltar</string>
+    <string name="id_botao_visualizar">btnvisualizar</string>
+    <string name="id_botao_pesquisar">btnpesquisar</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="botao_visualizar">Visualizar</string>
+    <string name="botao_pesquisar">Pesquisar</string>
+    <string name="menuitem1">Sair</string>
+    <string name="menu_nome_empreendimentos">EMPREENDIMENTOS</string>
+    <string name="menu_nome_marketing">NOME MARKETING</string>
+    <string name="menu_nome_outrascategorias">OUTRAS CATEGORIAS</string>
+    <string name="menu_nome_pesquisar">PESQUISAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_produtos">Produtos</string>
+    <string name="title_activity_tipo_documento">TipoDocumento</string>
+    <string name="title_activity_arquivos">Arquivos</string>
+    <string name="title_activity_tipo_documentos">TipoDocumentos</string>
+    <string name="title_activity_detalhe_arquivo">DetalheArquivo</string>
+    <string name="title_activity_visualizar_arquivo">VisualizarArquivo</string>
+    <string name="title_activity_localidade">Localidade</string>
+    <string name="title_activity_bairro">Bairro</string>
+    <string name="title_activity_produtos1">Produtos1</string>
+    <string name="title_activity_arquivos1">Arquivos1</string>
+    <string name="title_activity_tipo_documento2">TipoDocumento2</string>
+    <string name="title_activity_tipo_documentos1">TipoDocumentos1</string>
+    <string name="title_activity_tipodocumentosoc">tipodocumentosoc</string>
+    <string name="title_activity_tipodocumentosoc2">tipodocumentosoc2</string>
+    <string name="title_activity_arquivos_oc">ArquivosOC</string>
+
+</resources>

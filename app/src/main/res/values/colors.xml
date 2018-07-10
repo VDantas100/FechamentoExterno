@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f80000</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#f41602</color>
+    <color name="ciano_500">#f80000</color>
+    <color name="color_branco">#f5f5f5</color>
+    <color name="color_verde_claro">#c0d098</color>
+    <color name="color_verde_escuro">#709038</color>
+    <color name="color_vermelho_sangue">#84171a</color>
+    <color name="color_roxo_nivel">#6070bf</color>
+    <color name="color_cinza_nivel1">#ebebeb</color>
+    <color name="color_cinza_nivel2">#8f939a</color>
+    <color name="color_cinza_menu">#807f7b</color>
+    <color name="color_menutoolbar">#bb2024</color>
+    <color name="color_azul_visualizar">#006fcf</color>
+    <color name="color_titulo_fechaexterno">#7f7f7e</color>
+    <color name="color_fundo_titulo_fechaexterno">#f2f2f0</color>
+
+
+
+</resources>
